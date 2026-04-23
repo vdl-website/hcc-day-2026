@@ -76,7 +76,7 @@ institute:
 
 ## Keynote
 
-**Keynote Speaker:** Paweł W. Woźniak, TU Vienna
+**Keynote Speaker:** Paweł W. Woźniak, TU Wien
 
 ### Active Bodies, Perceptive Machines: How Everyday Interactions Reveal Profound Questions in HCI
 
