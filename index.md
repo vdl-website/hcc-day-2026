@@ -22,6 +22,7 @@ schedule:
     event: Coffee Break
   - time: "11:20 – 13:00"
     event: Cluster Presentations
+    url: "#research-clusters"
   - time: "13:00"
     event: Lunch
   - time: "13:30 – 15:00"

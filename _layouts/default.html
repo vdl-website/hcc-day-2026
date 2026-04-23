@@ -215,6 +215,16 @@
       font-size: 0.9rem;
     }
 
+    .hero-schedule td a {
+      color: inherit;
+      text-decoration: none;
+      border-bottom: 1px solid var(--accent);
+    }
+
+    .hero-schedule td a:hover {
+      color: var(--accent);
+    }
+
     .hero-schedule td em {
       font-weight: 400;
       font-style: normal;
@@ -437,7 +447,7 @@
         {% for item in page.schedule %}
         <tr>
           <td>{{ item.time }}</td>
-          <td><strong>{{ item.event }}</strong>{% if item.detail %}<em>{{ item.detail }}</em>{% endif %}</td>
+          <td><strong>{% if item.url %}<a href="{{ item.url }}">{{ item.event }}</a>{% else %}{{ item.event }}{% endif %}</strong>{% if item.detail %}<em>{{ item.detail }}</em>{% endif %}</td>
         </tr>
         {% endfor %}
       </table>
@@ -447,7 +457,7 @@
   <main class="content-wrapper">
     {{ content }}
 
-    <h2>Research Clusters</h2>
+    <h2 id="research-clusters">Research Clusters</h2>
     <div class="clusters-grid">
       {% for cluster in page.clusters %}
       <div class="cluster-card">
