@@ -7,12 +7,12 @@ hero:
   title_line2: Day
   subtitle: "Celebrating Human&#8209;Centered Computing Research"
   date: "Friday, May 29, 2026"
-  location_text: "Datahouse Showroom"
-  location_label: "Sandgasse 36, Graz"
+  location_text: "Data House Showroom"
+  location_label: "Sandgasse 36, 8010 Graz, ground floor"
   location_url: "https://maps.app.goo.gl/VFBG7ytdwj9nLVRu6"
   intro:
-    - "The Institute of Human-Centered Computing invites you to the first HCC Day at TU Graz. The event highlights research at the intersection of people and technology, focusing on how computing systems are designed and evaluated around human needs."
-    - "HCC Day is open to anyone interested in human factors in computing. It is particularly aimed at students and graduates of TU Graz and universities of applied sciences who are exploring careers in computing and IT, or looking for thesis and project opportunities. Industry participants interested in current research and methods are also welcome. The program includes a keynote, thematic cluster presentations, and poster sessions with lab tours, offering both a structured overview and opportunities for direct exchange with researchers."
+    - "The Institute of Human-Centered Computing invites you to the first HCC Day at Graz University of Technology. The event highlights research at the intersection of people and technology, focusing on how computing systems are designed and evaluated around human needs."
+    - "HCC Day is open to anyone interested in human factors in computing. It is particularly aimed at students and graduates of Graz University of Technology and universities of applied sciences who are exploring careers in computing and IT, or looking for thesis and project opportunities. Industry participants interested in current research and methods are also welcome. The program includes a keynote, thematic cluster presentations, and poster sessions with lab tours, offering both a structured overview and opportunities for direct exchange with researchers."
 
 schedule:
   - time: "10:00 – 11:00"
@@ -33,7 +33,7 @@ clusters:
     name: Visual Interfaces for Humans
     people:
       - name: Keith Andrews
-        url: "https://keithandrews.com/keith"
+        url: "https://hcc.tugraz.at/keith"
       - name: Alexander Lex
         url: "https://www.visdesignlab.net/"
       - name: Eduardo Veas
@@ -55,7 +55,8 @@ clusters:
   - number: 4
     name: STS and the Humanities
     people:
-      - name: STS
+      - name: Armin Spök, Bernhard Wieser
+        url: "https://www.tugraz.at/arbeitsgruppen/sts/ueber-uns/team"
       - name: Yvonne Völkl
         url: "https://homepage.uni-graz.at/de/yvonne.voelkl/"
   - number: 5
@@ -67,10 +68,10 @@ clusters:
         url: "https://www.tugraz.at/institute/hcc/research/research-groups/web-science-engineering"
 
 institute:
-  name: Institute of Human Centred Computing
+  name: Institute of Human-Centred Computing
   url: "https://hcc.tugraz.at/"
   logo: assets/tug_logo.svg
-  logo_alt: "TU Graz – Graz University of Technology"
+  logo_alt: "Graz University of Technology"
   tugraz_url: "https://www.tugraz.at"
 ---
 
