@@ -83,7 +83,7 @@ In this lecture, I will explore what fascinates me about the field of Human-Comp
 
 This exploration leads to intriguing considerations—can technology become conscious? Could it one day 'perceive' our physical state or even empathize with us? However, these exciting possibilities come at a cost. What happens when technology crosses personal boundaries, becoming intrusive or unsettling? I suggest that a deeper understanding of how technology causes ambiguous feelings is key for the future of interaction design. Ultimately, I hope to demonstrate that HCI is not only about designing devices and interfaces but also about understanding their broader impact on the human experience.
 
-![Paweł W. Woźniak](assets/pawel2022.png)
+![Paweł W. Woźniak]({{ "/assets/pawel2022.png" | relative_url }})
 
 #### Bio
 
