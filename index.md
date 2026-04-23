@@ -31,6 +31,7 @@ schedule:
 clusters:
   - number: 1
     name: Visual Interfaces for Humans
+    time: "11:20 – 11:40"
     people:
       - name: Keith Andrews
         url: "https://hcc.tugraz.at/keith"
@@ -40,6 +41,7 @@ clusters:
         url: "https://eduveas.github.io/"
   - number: 2
     name: "Human-Centered AI & Personalization"
+    time: "11:40 – 12:00"
     people:
       - name: Elisabeth Lex
         url: "https://elisabethlex.info"
@@ -47,6 +49,7 @@ clusters:
         url: "https://www.staff.tugraz.at/viktoria.pammer-schindler/"
   - number: 3
     name: Immersive and Interactive Systems
+    time: "12:00 – 12:20"
     people:
       - name: Christian Gütl
         url: "https://www.tugraz.at/institute/hcc/research/research-groups/cognitive-digital-science-lab/codis"
@@ -54,6 +57,7 @@ clusters:
         url: "https://jpirker.com/"
   - number: 4
     name: STS and the Humanities
+    time: "12:20 – 12:40"
     people:
       - name: Armin Spök, Bernhard Wieser
         url: "https://www.tugraz.at/arbeitsgruppen/sts/ueber-uns/team"
@@ -61,6 +65,7 @@ clusters:
         url: "https://homepage.uni-graz.at/de/yvonne.voelkl/"
   - number: 5
     name: Social Data and Network Science
+    time: "12:40 – 13:00"
     people:
       - name: Fariba Karimi
         url: "https://networkinequality.com/"

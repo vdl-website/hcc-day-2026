@@ -373,8 +373,15 @@
       font-size: 1rem;
       font-weight: 700;
       color: var(--dark);
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.2rem;
       line-height: 1.3;
+    }
+
+    .cluster-card .cluster-time {
+      font-size: 0.8rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
     }
 
     .cluster-card .cluster-groups {
@@ -457,12 +464,13 @@
   <main class="content-wrapper">
     {{ content }}
 
-    <h2 id="research-clusters">Research Clusters</h2>
+    <h2 id="research-clusters">Research Cluster Presentations</h2>
     <div class="clusters-grid">
       {% for cluster in page.clusters %}
       <div class="cluster-card">
         <div class="cluster-label">Cluster {{ cluster.number }}</div>
         <div class="cluster-name">{{ cluster.name }}</div>
+        {% if cluster.time %}<div class="cluster-time">{{ cluster.time }}</div>{% endif %}
         <div class="cluster-groups">{% for person in cluster.people %}{% if person.url %}<a href="{{ person.url }}" target="_blank" rel="noopener">{{ person.name }}</a>{% else %}{{ person.name }}{% endif %}{% unless forloop.last %} &middot; {% endunless %}{% endfor %}</div>
       </div>
       {% endfor %}
