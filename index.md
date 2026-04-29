@@ -1,6 +1,6 @@
 ---
 layout: default
-title: HCC Day – Celebrating Human-Centred Computing Research
+title: HCC Day 2026 – Celebrating Human-Centred Computing Research
 
 hero:
   title_line1: HCC
@@ -12,7 +12,7 @@ hero:
   location_url: "https://maps.app.goo.gl/VFBG7ytdwj9nLVRu6"
   intro:
     - "The Institute of Human-Centred Computing invites you to the first HCC Day at Graz University of Technology. The event highlights research at the intersection of people and technology, focusing on how computing systems are designed and evaluated around human needs."
-    - "HCC Day is open to anyone interested in human factors in computing. It is particularly aimed at students and graduates of Graz University of Technology and universities of applied sciences who are exploring careers in computing and IT, or looking for thesis and project opportunities. Industry participants interested in current research and methods are also welcome. The program includes a keynote, thematic cluster presentations, and poster sessions with lab tours, offering both a structured overview and opportunities for direct exchange with researchers."
+    - "HCC Day 2026 is open to anyone interested in human factors in computing. It is particularly aimed at students and graduates of Graz University of Technology and universities of applied sciences who are exploring careers in computing and IT, or looking for thesis and project opportunities. Industry participants interested in current research and methods are also welcome. The program includes a keynote, thematic cluster presentations, and poster sessions with lab tours, offering both a structured overview and opportunities for direct exchange with researchers."
 
 schedule:
   - time: "10:00 – 11:00"
